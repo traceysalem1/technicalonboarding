@@ -7,13 +7,13 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{github-username}.github.io/{repo-name}'",
+    "build-gh": "parcel build --public-url 'https://traceysalem1.github.io/technicalonboarding'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+    "url": "git+https://github.com/traceysalem1/technicalonboarding.git"
   },
   "author": "Microsoft",
   "license": "ISC",
